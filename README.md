@@ -1,0 +1,1 @@
+This website offers a glimpse into who I am, the projects I've worked on, the skills I've gained, and my professional experience. You’ll also find ways to get in touch or connect with me. Explore the full website, built with HTML, CSS, and JavaScript: Click [here](https://ixchelpm.github.io/my-portfolio/)
