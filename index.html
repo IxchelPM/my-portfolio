@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Science Portfolio showcasing projects, skills, and experience in exploring the world of data.">
+    <title>Ixchel Peralta-Martinez Portfolio</title>
+    <link rel="icon" type="image/png" href="assets\Images\meerkat_img.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#about" class="logo">Adventures in Analytics</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+       <!-- About Me Section -->
+    <section class="about-me-section" id="about">
+    <div class="container">
+        <div class="about-content-wrapper"> 
+            <div class="about-text">
+                <h1>Hello, I'm Ixchel Peralta-Martinez</h1>
+                <p class="about-subtitle">Data Analyst | AI & ML</p> 
+                   <div class="about-details">
+                
+                        <p>
+                         I'm a data analyst with practical experience in data wrangling, exploratory analysis, and building dashboards using tools like SQL, Python, Excel, and Power BI. 
+                            My focus is on delivering meaningful insights through clean, well-structured data and effective visual storytelling. I enjoy translating complex findings into actionable recommendations.
+                        </p>
+                         <p>
+                        Outside of tech, I enjoy learning new languages, watching documentaries, playing board games, and crocheting. Fun fact: I once taught English as a Summer School teacher an experience that sharpened both my communication and storytelling skills.
+                        </p>
+                    </div>
+                    
+                <a href="#projects" class="btn">Explore My Work <i class="fas fa-arrow-right"></i></a> 
+                </div>
+        </div>
+        </div>
+    </section>
+
+  <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">A Glimpse Into My Work</h2>
+                <div class="category-nav">
+                    <a href="#" class="active" data-filter="all">ALL</a>
+                    <a href="#" data-filter="data-science">DATA SCIENCE & AI</a>
+                    <a href="#" data-filter="visualization">DATA VISUALIZATION</a>
+                    
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+
+                    <div class="project-card" data-category="data-science">
+                        <img src="assets\Images\Flight_Dashboard.png" alt="Air Passenger Forecasting for NC Hubs CLT & RDU" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">Air Passenger Forecasting for NC Hubs CLT & RDU</h3>
+                            <p class="project-desc">
+                               Forecasting monthly airline passenger traffic for Charlotte and Raleigh-Durham airports using time series models in R (ETS, ARIMA). Includes spatial mapping, STL decomposition, and a Shiny dashboard for interactive visualization. Data spans 2000–2019 with forecasts through mid-2020.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">R</span>
+                                <span class="tag">Shiny dashboard</span>
+                                <span class="tag">Time Series</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="assets\pdfs\Forecasting_Flights_Charlotte_Raleigh.pdf" class="project-link"  aria-label="View Analysis Report" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-file-alt"></i>Report
+                                </a>
+                                <a href= "assets\notebooks\Forecasting_Flights_Charlotte_Raleigh.html" class="project-link"  aria-label="View R Markdown Notebook"  target="_blank"  rel="noopener noreferrer">
+                                    <i class="fas fa-chart-line"></i>Notebook
+                                </a>
+                                <a href="https://my-shiny-flightmap.shinyapps.io/air_traffic/"  class="project-link"  aria-label="View Demo" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-play-circle"></i> Demo
+                                </a>
+                                <a href="https://github.com/IxchelPM/Air-Passenger-Forecasting-for-NC-Hubs-CLT-RDU"  class="project-link"  aria-label="View on GitHub" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                       <!-- Project 2 -->
+                    <div class="project-card" data-category="data-science">
+                        <img src="assets\Images\Grow_To_Impress.png" alt="Grow to Impress" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">Grow to Impress</h3>
+                            <p class="project-desc">
+                              A web platform designed to empower young girls (ages 14–19) with personal development tools, AI support, and mentorship guidance, especially in male-dominated fields like tech. 
+                              Built by first-generation college students, Grow to Impress helps girls build confidence, gain skills, and find mentorship. 
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML & CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Google Generative AI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://www.youtube.com/watch?v=jib_LehQSKQ&ab_channel=MafeDuran"  class="project-link"  aria-label="View Demo" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-play-circle"></i> Demo
+                                </a>
+                                <a href="https://github.com/IxchelPM/Grow-To-Impress"  class="project-link"  aria-label="View on GitHub" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Project 3 -->
+                     <div class="project-card" data-category="data-science">
+                        <img src="assets\Images\Song_Pie_Chart.png" alt="Spotify Top 2000 Song Popularity Classification" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">Spotify Top 2000 Song Popularity Classification</h3>
+                            <p class="project-desc">
+                              This R project uses Spotify’s All-Time Top 2000 Tracks to classify songs as popular or not popular based on audio features and genre. It applies classification models like Logistic Regression, LDA, QDA, and KNN, and evaluates them using accuracy, sensitivity, specificity, and runtime.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">R</span>
+                                <span class="tag">ML Algorithms</span>
+                                <span class="tag">Classification</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="assets\pdfs\Top_2000_Spotify_Song_Popularity_Classification.pdf" class="project-link"  aria-label="View Analysis Report" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-file-alt"></i>Report
+                                </a>
+                                <a href= "assets\notebooks\Song_Popularity_Classification.html" class="project-link"  aria-label="View R Markdown Notebook"  target="_blank"  rel="noopener noreferrer">
+                                    <i class="fas fa-chart-line"></i>Notebook
+                                </a>
+                                <a href="https://github.com/IxchelPM/Spotify-Top-2000-Song-Popularity-Classification"  class="project-link"  aria-label="View on GitHub" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                         <!-- Project 4 -->
+                    <div class="project-card" data-category="data-science">
+                        <img src="assets\Images\ClaraNP_poster.png" alt="ClaraNP Chatbot for Nursing Education" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">ClaraNP Chatbot for Nursing Education</h3>
+                            <p class="project-desc">
+                             ClaraNP generative AI for nursing curriculum creation.Focused on leveraging large language models and advanced PDF processing to enhance content accuracy and implement hallucination mitigation.  
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LLM</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">TensorFlow</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://openreview.net/pdf?id=tcgpLqqxvn" class="project-link"  aria-label="View Paper" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-file-alt"></i>Paper
+                                </a>
+                                 <a href="assets\pdfs\ClaraNP_CWIC_poster_v2.pdf" class="project-link"  aria-label="View Poster" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-file-alt"></i>Poster
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <!-- Project 5 -->
+                    <div class="project-card" data-category="data-science">
+                        <img src="assets\Images\AI_Poster.png" alt="Artistic Intelligence" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">Artistic Intelligence</h3>
+                            <p class="project-desc">
+                               We developed a LoRA model to replicate the unique art style of local artist Ivy Li. Using standardized and annotated images, we generated custom embeddings with Stable Diffusion and created new artworks guided by text prompts. 
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Text-to-Image Generation</span>
+                                <span class="tag">Prompting</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="assets/pdfs/Artistic_Intelligence.pdf" class="project-link"  aria-label="View Poster" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-file-alt"></i>Poster
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- Project 6 -->
+                    <div class="project-card" data-category="visualization">
+                        <img src="assets\Images\covid_chart.png" alt="Exploring Perceptions and Emotions During COVID-19" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">Exploring Perceptions and Emotions During COVID-19</h3>
+                            <p class="project-desc">
+                              Analyzing emotions during COVID-19 through surveys and Twitter sentiment using Python and NLP.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">NumPy</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                            <div class="project-links">
+                                <a href= "assets\notebooks\Covid_Analysis.html" class="project-link"  aria-label="View Jupyter Notebook"  target="_blank"  rel="noopener noreferrer">
+                                    <i class="fas fa-chart-line"></i>Notebook
+                                </a>
+                                <a href="https://github.com/IxchelPM/Perceptions-Emotions-During-COVID-19-Survey-Twitter-Analysis"  class="project-link"  aria-label="View on GitHub" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    
+                      <!-- Project 7 -->
+                    <div class="project-card" data-category="visualization">
+                        <img src="assets\Images\Workforce_Insights.png" alt="Workforce Insights Dashboard" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">Workforce Insights Dashboard</h3>
+                            <p class="project-desc">
+                              Interactive Streamlit dashboard for visualizing workforce trends, industry growth, skill demands, and employment outcomes using dynamic charts and heatmaps.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://workforce-insights-dashboard.streamlit.app/"  class="project-link"  aria-label="View Demo" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-play-circle"></i> Demo
+                                </a>
+                                <a href="https://github.com/IxchelPM/Workforce-Insights-Dashboard"  class="project-link"  aria-label="View on GitHub" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+                     
+                    
+        </section>
+      <!-- Experience Section -->
+       <section id="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+
+            <!-- Experience 1 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="assets\Images\Pearson.png" alt="Pearson">
+                </div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Data Management Analyst</h3>
+                    <h4 class="timeline-company">Pearson</h4>
+                    <p class="timeline-desc">
+                        • Designed and implemented relational database tables with role-based access controls, enhancing data security and supporting multi-user querying.<br>
+                        • Developed JavaScript automation scripts to create, update, and delete records, streamlining workflows and improving data integrity across systems.<br>
+                        • Built dynamic dashboards in ServiceNow to track key performance indicators (KPIs), enabling real-time monitoring and data-driven decision-making across departments.
+
+                    </p>
+                    <span class="timeline-date">Jan 2025 – Apr 2025 | Durham, NC</span>
+                </div>
+            </div>
+
+            <!-- Experience 2 -->
+           <div class="timeline-item">
+            <div class="timeline-icon">
+                <img src="assets/Images/uncw-house-logo-pms-281-notpad-our.png" alt="UNCW">
+            </div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">IT Technician & Customer Service Representative</h3>
+                <h4 class="timeline-company">UNCW Technology Assistance Center</h4>
+                <p class="timeline-desc">
+                    • Delivered responsive technical support to students, faculty, and staff—resolving up to 10 in-person and remote issues per shift with a focus on clear communication and service excellence.<br>
+                    • Diagnosed and resolved network connectivity, software, and authentication issues while ensuring a positive client experience.<br>
+                    • Applied ITSM principles and knowledge base resources to efficiently manage and resolve incidents using TeamDynamix.<br>
+                    • Collaborated with internal tech teams to escalate and follow through on complex cases, ensuring timely and accurate resolution.
+                </p>
+                <span class="timeline-date">Jan 2022 – Dec 2024 | Wilmington, NC</span>
+            </div>
+        </div>
+    
+              <!-- Experience 3 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="assets/Images/Pearson.png" alt="Pearson">
+                </div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Data Analyst Intern</h3>
+                    <h4 class="timeline-company">Pearson</h4>
+                    <p class="timeline-desc">
+                        • Applied NLP, machine learning, and generative AI to classify software categories and detect duplicates, improving catalog accuracy and consistency. <br>
+                        • Identified overlaps and inefficiencies across 250+ software tools, supporting an estimated $30K in potential cost-saving recommendations.<br>
+                        • Developed an interactive R Shiny dashboard to explore data, visualize insights, and support informed decision-making by stakeholders.  
+                    </p>
+                    <span class="timeline-date">Jun 2024 – Aug 2024 | Durham, NC</span>
+                </div>
+            </div>
+             <!-- Experience 4 -->
+           <div class="timeline-item">
+            <div class="timeline-icon">
+                <img src="assets/Images/uncw-house-logo-pms-281-notpad-our.png" alt="UNCW">
+            </div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Graduate Research Assistant</h3>
+                    <h4 class="timeline-company">UNCW</h4>
+                    <p class="timeline-desc">
+                        ● Worked with a faculty‑led team to develop an embedding and LoRa model to replicate the unique style of a local artist  Ivy Li, enhancing the efficiency and automation of art creation.<br>
+                        ● Implemented advanced Stable Diffusion generative AI strategies, utilizing both specific and general text‑to‑image 
+                        prompts, as well as negative prompts, to fine‑tune the AI's performance.
+                    </p>
+                    <span class="timeline-date">Sep 2023 – May 2024 | Wilmington, NC</span>
+                </div>
+            </div>
+
+            <!-- Experience 5 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="assets\Images\biostudy-logo-300x150.jpg" alt="Biostudy Solutions LLC">
+                </div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Statistical Analyst Intern</h3>
+                    <h4 class="timeline-company">Biostudy Solutions LLC</h4>
+                    <p class="timeline-desc">
+                        • Cleaned, formatted, and analyzed data for 10+ pharmacokinetic and in vitro studies using SAS and Excel.<br>
+                        • Validated tables, listings, and visualizations for FDA and GCP compliance, achieving 100% error-free submissions.<br>
+                        • Collaborated with senior biostatisticians to cross-verify statistical methods and ensure consistent reporting.
+                    </p>
+                    <span class="timeline-date">Sep 2022 – May 2023 | Wilmington, NC</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+   <!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">My Analyst's Toolkit</h2>
+    <div class="skills-container">
+
+      <!-- Data Science & Machine Learning -->
+      <div class="skill-category">
+        <h3 class="skill-category-title">Data Analyst & Machine Learning</h3>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fab fa-python skill-icon"></i> <span class="skill-name">Python</span></div>
+          <div class="skill-item"><i class="fab fa-r-project skill-icon"></i> <span class="skill-name">R</span></div>
+          <div class="skill-item"><i class="fas fa-database skill-icon"></i> <span class="skill-name">SQL</span></div>
+          <div class="skill-item"><i class="fas fa-chart-pie skill-icon"></i> <span class="skill-name">Pandas</span></div>
+          <div class="skill-item"><i class="fas fa-superscript skill-icon"></i> <span class="skill-name">NumPy</span></div>
+          <div class="skill-item"><i class="fas fa-brain skill-icon"></i> <span class="skill-name">Scikit-learn</span></div>
+        </div>
+      </div>
+
+      <!-- Data Visualization & Reporting -->
+      <div class="skill-category">
+        <h3 class="skill-category-title">Visualization & Reporting</h3>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fas fa-file-alt skill-icon"></i> <span class="skill-name">Power BI</span></div>
+          <div class="skill-item"><i class="fas fa-chart-pie skill-icon"></i> <span class="skill-name">Tableau</span></div>
+          <div class="skill-item"><i class="fas fa-file-excel skill-icon"></i> <span class="skill-name">Excel</span></div>
+          <div class="skill-item"><i class="fab fa-r-project skill-icon"></i> <span class="skill-name">R Shiny</span></div>
+        <div class="skill-item"><i class="fas fa-chart-line skill-icon"></i> <span class="skill-name">Matplotlib & Seaborn</span></div>
+          <div class="skill-item"><i class="fas fa-stream skill-icon"></i> <span class="skill-name">Streamlit</span></div>
+        </div>
+      </div>
+
+      <!-- Cloud, DevOps & Tools -->
+      <div class="skill-category">
+        <h3 class="skill-category-title">Cloud, DevOps & Tools</h3>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fab fa-git-alt skill-icon"></i> <span class="skill-name">Git & GitHub</span></div>
+          <div class="skill-item"><i class="fas fa-cloud skill-icon"></i> <span class="skill-name">Azure</span></div>
+        </div>
+      </div>
+
+      <!-- Soft Skills & Others -->
+      <div class="skill-category">
+        <h3 class="skill-category-title">Soft Skills & Others</h3>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fas fa-comments skill-icon"></i> <span class="skill-name">Communication & Presentation</span></div>
+          <div class="skill-item"><i class="fas fa-lightbulb skill-icon"></i> <span class="skill-name">Problem Solving & Critical Thinking</span></div>
+          <div class="skill-item"><i class="fas fa-users skill-icon"></i> <span class="skill-name">Team Collaboration</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                 <div class="contact-content">
+                    <div class="contact-text">
+                        <h3>Let's Connect!</h3>
+                        <p>I'm always eager to discuss new data adventures, collaborative projects, or opportunities to apply my skills. If you have a challenge or an idea, I'd love to hear about it.</p>
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Ixchelperalta4000@gmail.com</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cary, NC, USA </span>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://github.com/IxchelPM" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ixchel-peralta/" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>                        
+                        </div>
+                        <a href="assets\pdfs\IxchelPeraltaM_Resume.pdf" class="btn resume-btn" target="_blank" rel="noopener noreferrer">Download My Resume (Resume)<i class="fas fa-file-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Ixchel Peralta-Martinez</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
